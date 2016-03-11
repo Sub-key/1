@@ -1,6 +1,0 @@
-{
-            case 11:printf("\n(%d,%d)",syn,sum);break;//当扫描到数字时，syn为11，输出此时的种别码和数字
-			case -1:printf("\n(%s,出错)",token);break;//当输入不在种别码表里的东西时，以“出错”输出。
-			default:printf("\n(%d,%s)",syn,token);//其他则输出此时的种别码和字符或字符串
-		}
-	}while(syn
